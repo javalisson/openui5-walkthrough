@@ -1,0 +1,27 @@
+{
+  "name": "helloworld-cdn-ui5",
+  "version": "1.0.0",
+  "description": "The most basic example of OpenUI5 code using the CDN.",
+  "scripts": {
+    "start": "http-server webapp -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javalisson/helloworld-cdn-ui5.git"
+  },
+  "keywords": [
+    "openui5",
+    "ui5",
+    "helloworld"
+  ],
+  "author": "JavAlisson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javalisson/helloworld-cdn-ui5/issues"
+  },
+  "homepage": "https://github.com/javalisson/helloworld-cdn-ui5#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
