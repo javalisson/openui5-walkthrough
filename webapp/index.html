@@ -8,14 +8,20 @@
   <script id="sap-ui-bootstrap"
     src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
     data-sap-ui-theme="sap_belize"
-    data-sap-ui-libs="sap.m"
-    data-sap-ui-compatVersion="edge"
     data-sap-ui-resourceroots='{"walkthrough": "./"}'
-    data-sap-ui-onInit="module:walkthrough/index"
+    data-sap-ui-onInit="module:sap/ui/core/ComponentSupport"
+    data-sap-ui-compatVersion="edge"
     data-sap-ui-async="true">
   </script>
 </head>
 <body>
-  <body class="sapUiBody" id="content"></body>
+  <body class="sapUiBody" id="content">
+    <div
+      data-sap-ui-component
+      data-name="walkthrough"
+      data-id="container"
+      data-settings='{"id": "walkthrough"}'>
+    </div>
+  </body>
 </body>
 </html>
