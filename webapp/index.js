@@ -1,5 +1,9 @@
-sap.ui.define([], function () {
+sap.ui.define([
+  'sap/m/Text'
+], function (Text) {
   'use strict';
 
-  alert('OpenUI5 loaded!');
+  new Text({
+    text: 'Hello World!'
+  }).placeAt('content');
 });
