@@ -4,6 +4,10 @@
   xmlns:mvc="sap.ui.core.mvc">
   <Button
     text="Say Hello"
-    class="sapUiSmallMargin"
     press=".onSayHello" />
+  <Input
+    value="{/recipient/name}"
+    description="Hello {/recipient/name}"
+    valueLiveUpdate="true"
+    width="60%" />
 </mvc:View>
